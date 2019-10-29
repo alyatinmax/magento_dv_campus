@@ -143,6 +143,12 @@
     Options +FollowSymLinks
     RewriteEngine on
 
+    SetEnvIf Host .*alyatin-max.local.* MAGE_RUN_CODE=base
+    SetEnvIf Host .*alyatin-max.local.* MAGE_RUN_TYPE=website
+
+    SetEnvIf Host .*france-magazin.local.* MAGE_RUN_CODE=france_website
+    SetEnvIf Host .*france-magazin.local.* MAGE_RUN_TYPE=website
+
 ############################################
 ## you can put here your magento root folder
 ## path relative to web root
