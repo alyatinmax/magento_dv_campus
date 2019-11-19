@@ -1,5 +1,5 @@
 module.exports = {
-    alyatinmax_maxtheme_en_Us: {
+    alyatinmax_maxtheme_en_US:{
         area: 'frontend',
         name: 'AlyatinMax/maxtheme',
         locale: 'en_US',
