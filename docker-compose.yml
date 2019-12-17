@@ -23,7 +23,7 @@ services:
         - MEMCACHED=0
     restart: always
     labels:
-      # - traefik.enable=false
+      - traefik.enable=true
       - traefik.http.frontend.rule=Host:alyatin-max.local,www.alyatin-max.local,france-magazin.local,www.france-magazin.local
       - traefik.http.frontend.entryPoints=http
       - traefik.https.frontend.rule=Host:alyatin-max.local,www.alyatin-max.local,france-magazin.local,www.france-magazin.local
